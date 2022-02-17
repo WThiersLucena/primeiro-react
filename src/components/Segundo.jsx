@@ -1,3 +1,3 @@
 
 
-export default() => <h2>Primeiro dentro de components</h2>
+export default() => <h2>Primeiro components [2]</h2>
