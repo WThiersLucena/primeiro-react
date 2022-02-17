@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import './App.css';
 import Primeiro from './components/Primeiro';
 import Segundo from './components/Segundo';
-import Multi from './components/Multi';
+import Teste ,{Component1,Component2} from './components/Multi';
+
+
 
 function App() {
   return (
@@ -10,8 +12,9 @@ function App() {
       <h2> Teste dentro de App.js</h2>
       <Primeiro></Primeiro>
       <Segundo></Segundo> 
-      
-
+      <Teste></Teste>
+      <Component1></Component1>
+      <Component2></Component2>
       </div>   
     )
   
