@@ -5,10 +5,9 @@ export default props => {
     console.log('cadastrou');    
 }
 
-
 return (
     <button onClick= {cadastrar}>
-            Cadastrar
+       Cadastrar
     </button>
-    )
+)
 } 

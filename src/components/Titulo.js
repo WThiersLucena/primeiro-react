@@ -5,4 +5,5 @@ export default props => {
      <h2>{props.secundaria}</h2>
     </>
  )
+ 
 };
