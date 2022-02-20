@@ -7,4 +7,5 @@ const MinMax = (props) => {
     )
 };
 
+
 export default MinMax;
