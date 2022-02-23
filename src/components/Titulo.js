@@ -1,3 +1,4 @@
+
 export default props => {
     return (
     <>
@@ -8,3 +9,6 @@ export default props => {
 
 };
 
+function Titulo(){
+    return <h2 className="titulo">Seja bem bindo </h2>
+};
