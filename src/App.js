@@ -11,6 +11,7 @@ import Pessoa from './components/propriedades/Pessoa'
 import Produto from './components/propriedades/Produto'
 import Carros from './components/propriedades/Carros'
 import Pai from './components/indireta/Pai';
+import PaiDireto from './components/direta/Pai';
 
 
 
@@ -71,7 +72,7 @@ function App() {
     
     </ul>
     */}
-
+    <PaiDireto/>
     <Pai/>
   </div>
 );
