@@ -1,0 +1,55 @@
+
+.item{
+    text-align: center;
+    width: 200px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    list-style: none;
+    background-color: wheat;
+    border-radius: 5px;
+    
+}
+
+.nome{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.marca{
+    color: silver;
+    margin-top: 5px;
+}
+
+.valor{
+    font-weight: bold;
+    color: tomato;
+    margin-top: 10px;
+}
+
+.btn-comprar{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: black;
+    
+}
+
+.btn-comprar:hover{
+    color: yellow;
+    background-color: yellowgreen;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    
+}
+
+.verde{
+    background-color: green;
+    width: 150px;
+    height: 35px;
+}
+
+.azul{
+    background-color: blue;
+}
+

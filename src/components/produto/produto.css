@@ -1,0 +1,20 @@
+.item{
+    text-align: center;
+    width: 200px;
+    border: 1px solid #ccc;
+}
+
+.nome{
+    font-weight: bold;
+}
+
+.marca{
+    color: silver;
+}
+
+
+
+.bt-comprar{
+    margin-top: 20px;
+    color: yellowgreen;
+}

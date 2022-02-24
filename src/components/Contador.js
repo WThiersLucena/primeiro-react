@@ -5,7 +5,7 @@ function Contador (props) {
 
     const incremento = () => {
         if (numero == props.limiteMax){
-            alert("Valor maximo")
+            alert("Valor maximo de") 
             return
         } else {
             setNumero (numero + props.passo)
