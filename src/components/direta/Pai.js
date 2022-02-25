@@ -7,8 +7,8 @@ function PaiDireto(props) {
 
     return (
       <>
-        <Filho a={ x } b = { y }/>
-        <Filho a={ x + 20 } b = { y + 40}/>
+        <Filho a = { x } b = { y }/>
+        <Filho a = { x + 10 } b = { y + 10}/>
       </>
     )
 }

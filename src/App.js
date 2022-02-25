@@ -12,8 +12,13 @@ import Produto from './components/propriedades/Produto'
 import Carros from './components/propriedades/Carros'
 import Pai from './components/indireta/Pai';
 import PaiDireto from './components/direta/Pai';
-
-
+import Familia from './components/children/Familia';
+import Membro from './components/children/Membro';
+import ParImpar from './components/condicional/ParImpar';
+import UsuarioLogado from './components/condicional/UsuarioLogado';
+import ListaProdutos from './components/lista/ListaProduto';
+import DigiteSeuNome from './components/DigiteSeuNome';
+import CadastroNome from './components/classe/CadastroNome'
 
 function App() {
 
@@ -71,9 +76,60 @@ function App() {
     
     
     </ul>
-    */}
+    
+
     <PaiDireto/>
     <Pai/>
+    */}
+    <hr></hr>
+  <Familia>
+    <div>
+      <h3>1º </h3>    
+      <Membro nome = "Jonas" sobrenome = "Silva" />
+      <Membro nome = "Andre" sobrenome = "Silva" />    
+    </div>
+  
+  </Familia>
+    
+  <Familia> 
+    <div>
+      <h3>2º </h3>
+      <Membro nome = "Alan" sobrenome = "Santos" />
+      <Membro nome = "Pedro" sobrenome = "Santos" />
+    </div> 
+  </Familia>
+  <hr></hr>
+    {/*  Exemplo de condicional */}
+    <ParImpar num= {2}/>
+    <ParImpar num= {3}/>
+    <ParImpar />
+    {/* FIM  Exemplo de condicional */}
+
+   {/*  Exemplo de login  */}
+    {/*  Usuario logado com importação de If na pasta components  */}
+    <hr></hr>
+  <UsuarioLogado usuario={{nome : 'Ze', email: 'ze@ze.com'}}/>
+    <UsuarioLogado usuario={{nome : 'Ze'}}/>
+    <UsuarioLogado usuario={{ email: 'ze@ze.com'}}/>
+    <UsuarioLogado usuario={null}/>
+   <UsuarioLogado usuario={{nome : 'Tobias', email: 'tobias-@terra.com'}}/>
+   <hr></hr>
+   {/* FIM de Exemplo */}
+
+    {/*  Exemplo de Lista de Produtos */}
+      {/* Lista de Produtos com importação de produtos em array na pasta lista */}        
+    <ListaProdutos/>
+      
+    <hr></hr>
+
+  <DigiteSeuNome/>
+
+      
+    <hr></hr>
+        {/*TRABALHANDO COM CLASS */}
+        {/* FIM de Exemplo */}
+  <CadastroNome nome="Pedro"/>
+
   </div>
 );
 }

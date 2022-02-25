@@ -5,8 +5,8 @@ function Filho(props) {
 
     return (
       <>
-        <h2>{props.a}</h2>
-        <h2>{props.b}</h2>
+        <h2>linha A Valores simples =  {props.a}</h2>
+        <h2>linha B com soma + 10 [ {props.b} ] </h2>
       </>
     )
 }
